@@ -1,0 +1,67 @@
+/* global */
+:root {
+  font-size: 1.1em;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+a {
+  color: hsl(193.1, 40%, 76.9%);
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsl(193.1, 50%, 66.9%);
+}
+
+hr {
+  border-color: #3c5db3;
+}
+
+/* main */
+#main {
+  background: #5a79c8;
+  color: #eee;
+  padding-top: 1vmin;
+}
+
+#title,
+#title + p {
+  text-align: center;
+}
+
+/* img-div */
+#img-div {
+  background: #3c339a;
+  display: flex;
+  flex-direction: column;
+}
+
+#img-div img {
+  max-width: 100%;
+  height: auto;
+  margin: 3rem 3rem 10px 3rem;
+}
+
+#img-caption {
+  text-align: center;
+  margin-top: 0;
+  font-size: 0.8em;
+}
+
+/* tribute-info */
+#tribute-info {
+  background: #3c5db3;
+  padding: 2vmax;
+}
+
+ul + p {
+  font-size: 0.9em;
+}
+
+#tribute-link {
+  font-size: 1.15em;
+}
